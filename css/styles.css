@@ -37,17 +37,17 @@ ul {
 }
 
 .logo {
-  color: var(--NAVY-BLUE);
+  color: var(--IRIS);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo-accent {
-  color: var(--IRIS);
+  color: var(--NAVY-BLUE);
 }
 
 .nav-link {
@@ -60,8 +60,14 @@ ul {
 .nav-link:active,
 .address-link:active,
 .nav-link:focus,
-.address-link:focus {
+.address-link:focus,
+.nav-link:hover,
+.address-link:hover {
   color: var(--OCEAN);
+}
+
+.address-section {
+  font-style: normal;
 }
 
 .address-link {
@@ -88,6 +94,7 @@ ul {
   color: var(--WHITE);
   background-color: var(--IRIS);
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -98,6 +105,10 @@ ul {
 .button-order-service:hover,
 .button-order-service:focus {
   background-color: var(--OCEAN);
+}
+
+.our-team-link {
+  background-color: var(--WHITE);
 }
 
 .achievement-title,
@@ -139,7 +150,7 @@ ul {
 
 .footer-text {
   color: var(--CLOUD);
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .footer-logo-accent {
