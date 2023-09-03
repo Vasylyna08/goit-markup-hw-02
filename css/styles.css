@@ -6,7 +6,7 @@
   --WHITE: #fff;
   --CLOUD: #f4f4fd;
 }
-/* Base */
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
@@ -22,7 +22,6 @@ ul {
   list-style-type: none;
 }
 
-/* END Base */
 .visually-hidden {
   position: absolute;
   width: 1px;
